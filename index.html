@@ -32,6 +32,12 @@
         .p-contact{
             font-size: 0.9em;
         }    
+        .p-size{
+            font-size: 1.6em;
+        }
+        .p-text{
+            font-size: 0.8em;
+        }
         .container-pills{
             background-image: url('./public/background_banner.png');
             height: calc(100vh - 200px);
@@ -43,7 +49,7 @@
     </style>
 </head>
 <body>
-    <div class="container mx-auto">
+    <div class="w-full mx-auto">
         <div class="w-full colorgreen p-2 text-center text-white">
             <p class="p-contact">
                 I’m baby retro chillwave letterpress small batch beard, paleo ugh banjo hot chicken godard craft beer.
@@ -67,7 +73,24 @@
                 </button>
             </div>  
         </div>
-        <div class="w-full container-pills">
+        <div class="w-full container-pills items-center justify-center text-white">
+            <div class="mx-auto w-[65%] h-[90%] flex">
+                <div class="w-1/2 flex items-center justify-center">
+                    <img src="./public/bottles.png" alt="" class="object-contain h-full">
+                </div>
+                <div class="w-1/2 flex items-center justify-center flex-col">
+                    <div class="justify-start">
+                    <h1 class="p-text pb-2"><strong>Supporting Subheadline Goes Here</strong></h1>
+                    <h2 class="p-size pb-2"><strong>My Amazing Headline Goes Here</strong></h2>
+                    <h3 class="pb-4">I’m baby retro chillwave letterpress small batch beard, paleo ugh banjo hot chicken godard craft beer. Biodiesel pork belly green juice VHS farm-to-table, taxidermy heirloom scenester.</h3>
+                    <button class="p-2 colororange flex items-center justify-center space-x-2">
+                        <i class="fa-solid fa-cart-shopping rounded-full color-dark-orange p-2"></i>
+                        <p>
+                        GET STARTED</p>
+                    </button>
+                </div></div>
+            </div>
+            <div class="mx-auto w-[65%] h-[90%] flex bg-slate-50 mt-0.5"></div>
         </div>
         </div>    
 </body>
