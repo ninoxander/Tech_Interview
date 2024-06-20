@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <script src="https://kit.fontawesome.com/38a3806765.js" crossorigin="anonymous"></script>
     <style>
         .colorgreen{background-color: #005248;}
@@ -33,18 +34,34 @@
             font-size: 0.9em;
         }    
         .p-size{
-            font-size: 1.6em;
+            font-size: 1.8em;
         }
         .p-text{
             font-size: 0.8em;
         }
+        .p-small{
+            font-size: 0.7em;
+        }
         .container-pills{
             background-image: url('./public/background_banner.png');
-            height: calc(100vh - 200px);
-            background-size: contain;
+            height: calc(125vh - 225px);
+            background-size:cover;
             background-repeat: no-repeat;
             background-position: bottom;
-
+        }
+        .color-icons{
+            background: #F5B546 0% 0% no-repeat padding-box;
+            opacity: 1;
+        }
+        .color-text-green{
+            color: #005248;
+        }
+        .gray-section{
+            background: #F9F7F7 0% 0% no-repeat padding-box;
+        }
+        .star{
+            color: #FFB85A;
+            font-size: 14px;
         }
     </style>
 </head>
@@ -90,7 +107,112 @@
                     </button>
                 </div></div>
             </div>
-            <div class="mx-auto w-[65%] h-[90%] flex bg-slate-50  mt-[-2.7rem] rounded-lg"></div>
+            <div class="mx-auto w-[65%] h-[17%] flex bg-slate-50  mt-[-3.7rem] rounded-lg text-black pt-6 font-semibold">
+                <div class="grid grid-cols-4 gap-x-3 pl-7 p-text">
+                    <div><i class="fas fa-leaf rounded color-icons p-1 text-white mr-4 text-lg"></i>Natural Ingredients
+                    </div>
+                    <div><i class="fas fa-shipping-fast rounded color-icons p-1 text-white text-lg mr-4"></i>Fast Shipping</div>
+                    <div class="pl-3"><i class="fa-solid fa-award rounded color-icons p-1 text-white text-lg mr-4"></i>Money Back Guaranteed</div>
+                    <div class="pl-10"><i class="fa-solid fa-flag-usa rounded color-icons p-1 text-white text-lg mr-4"></i>Made in the USA</div> 
+                </div>
+            </div> 
+        </div>
+        <div class="w-[70%] mx-auto mt-8 p-4">
+            <div class="grid md:grid-cols-2 sm:grid-cols-1 sm:gap-y-4">
+                <div class="pr-8">
+                    <div class="w-full">
+                        <p class="font-bold color-text-green">ABOUT US</p>
+                    </div>
+                    <div class="w-full">
+                        <h1 class="font-bold p-size">
+                            My Amazing Headline Goes Here
+                        </h1>
+                    </div>
+                    <div class="mt-4">
+                        <p class="text-sm">
+                            I’m baby retro chillwave letterpress small batch beard, paleo ugh banjo hot chicken godard craft beer. 
+                            Biodiesel pork belly green juice VHS farm-to-table, taxidermy heirloom scenester +1 chillwave man braid readymade locavore lomo.
+                        </p>
+                    </div>
+                    <div class="mt-4">
+                        <p class="text-sm">
+                            Intelligentsia typewriter glossier, kogi pour-over YOLO everyday carry flannel. 
+                            Green juice Brooklyn church-key skateboard selfies, normcore Tumblr shabby chic activated charcoal poke bicycle rights quinoa portland dreamcatcher neutra.
+                        </p>
+                    </div>
+                </div>
+                <div class="gray-section rounded-lg pl-4 pr-4 pt-6">
+                    <div class="w-full mb-4">
+                        <h1 class="text-center font-bold p-size">
+                            Headline Goes Here
+                        </h1>
+                    </div>
+                    <div class="grid grid-rows-4 gap-y-4 pl-4">
+                        <div class="flex">
+                            <img src="./public/icon_01.svg" alt="brain">
+                            <p class="text-sm p-4">
+                                I’m baby retro chillwave letterpress small batch beard, paleo ugh banjo <strong>hot chicken godard craft beer</strong>. 
+                                Biodiesel pork belly green juice VHS farm-to-table.
+                            </p>
+                        </div>
+                        <div class="flex">
+                            <img src="./public/icon_02.svg" alt="heart">
+                            <p class="text-sm p-4">
+                                I’m baby retro <strong>chillwave letterpress</strong> small batch beard, paleo ugh banjo hot chicken godard craft beer. 
+                                Biodiesel pork belly green juice VHS farm-to-table.
+                            </p>
+                        </div>
+                        <div class="flex">
+                            <img src="./public/icon_03.svg" alt="scan">
+                            <p class="text-sm p-4">
+                                I’m baby retro <strong>chillwave letterpress</strong> small batch beard, paleo ugh banjo hot chicken godard craft beer. 
+                                Biodiesel pork belly green juice VHS farm-to-table.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-[70%] mx-auto mt-8 gray-section p-4 rounded-lg">
+            <div class="w-full grid grid-cols-2">
+                <div>
+                    <h1 class="p-size font-bold">
+                        Reviews
+                    </h1>
+                </div>
+                <div>
+                    <p class="float-right p-text color-text-green">
+                        Testimonial Name, who says...
+                    </p>
+                </div>
+            </div>
+            <div class="w-full bg-white rounded-lg p-4 mt-4">
+                <div class="flex">
+                    <div>
+                        <img src="public/testimonial.png" alt="">
+                    </div>
+                    <div class="w-full grid grid-rows-2">
+                        <div class="grid grid-cols-2 pl-4 pr-4">
+                            <div>
+                                <p class="font-bold">
+                                    Testimonial Name
+                                </p>
+                            </div>
+                            <div class="justify-end flex">
+                                <div class=" grid grid-cols-5 star w-1/5 gap-6">
+                                    <div><i class="fa-solid fa-star"></i></div>
+                                    <div><i class="fa-solid fa-star"></i></div>
+                                    <div><i class="fa-solid fa-star"></i></div>
+                                    <div><i class="fa-solid fa-star"></i></div>
+                                    <div><i class="fa-solid fa-star"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pl-4 pr-4 text-sm">I’m baby retro chillwave letterpress small batch beard, paleo ugh banjo hot chicken godard craft beer. Biodiesel pork belly green juice VHS farm-to-table, taxidermy heirloom scenester +1 chillwave man braid readymade locavore lomo. Intelligentsia typewriter glossier, kogi pour-over YOLO everyday carry flannel. Green juice Brooklyn church-key skateboard selfies, normcore Tumblr shabby chic activated charcoal poke bicycle rights quinoa portland dreamcatcher neutra.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
         </div>
         </div>    
 </body>
