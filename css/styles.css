@@ -1,0 +1,82 @@
+.colorgreen {
+  background-color: #005248;
+}
+.colororange {
+  background: rgb(242, 202, 127);
+  background: linear-gradient(
+    180deg,
+    rgba(242, 202, 127, 1) 0%,
+    rgba(250, 153, 28, 1) 100%
+  );
+  border-radius: 8px;
+  border: 3px solid #f2ca7f;
+  opacity: 1;
+  font-weight: bold;
+}
+.colororange .p {
+  text-align: center;
+  font: normal normal bold 18px/24px Open Sans;
+  letter-spacing: 0.27px;
+  color: #ffffff;
+  text-shadow: 0px 0px 3px #46424066;
+  text-transform: uppercase;
+  opacity: 1;
+  width: 220px;
+  height: 55px;
+}
+.color-dark-orange {
+  background: #eba121 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.p-contact {
+  font-size: 0.9em;
+}
+.p-text {
+  font-size: 0.8em;
+}
+.p-small {
+  font-size: 0.7em;
+}
+.container-pills {
+  background-image: url("./public/background_banner.png");
+  height: calc(125vh - 225px);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.color-icons {
+  background: #f5b546 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.color-text-green {
+  color: #005248;
+}
+.gray-section {
+  background: #f9f7f7 0% 0% no-repeat padding-box;
+}
+.star {
+  color: #ffb85a;
+  font-size: 14px;
+}
+.color-salmon {
+  background: orange;
+}
+.btn-buy-offer {
+  background-color: #005248;
+}
+.color-white-pink {
+  background: #f9f7f7;
+}
+.green-icon {
+  background: #b4d5d1;
+  width: 55%;
+  height: 40%;
+  margin: 0 auto;
+}
+.green-icon i{
+  font-size: 1.5rem;
+}
+.green-icon p{
+  font-size: 0.6rem;
+  font-weight: bolder;
+}

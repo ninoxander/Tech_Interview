@@ -7,67 +7,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <script src="https://kit.fontawesome.com/38a3806765.js" crossorigin="anonymous"></script>
-    <style>
-        .colorgreen{background-color: #005248;}
-        .colororange{background: rgb(242,202,127);
-          background: linear-gradient(180deg, rgba(242,202,127,1) 0%, rgba(250,153,28,1) 100%);
-          border-radius: 8px; 
-          border: 3px solid #F2CA7F;
-          opacity: 1;
-          font-weight: bold;
-        }
-        .colororange .p{
-            text-align: center;
-            font: normal normal bold 18px/24px Open Sans;
-            letter-spacing: 0.27px;
-            color: #FFFFFF;
-            text-shadow: 0px 0px 3px #46424066;
-            text-transform: uppercase;
-            opacity: 1;
-            width: 220px;
-            height: 55px;
-        }
-        .color-dark-orange{
-            background: #EBA121 0% 0% no-repeat padding-box;
-            opacity: 1;
-        }
-        .p-contact{
-            font-size: 0.9em;
-        }    
-        .p-text{
-            font-size: 0.8em;
-        }
-        .p-small{
-            font-size: 0.7em;
-        }
-        .container-pills{
-            background-image: url('./public/background_banner.png');
-            height: calc(125vh - 225px);
-            background-size:cover;
-            background-repeat: no-repeat;
-            background-position: bottom;
-        }
-        .color-icons{
-            background: #F5B546 0% 0% no-repeat padding-box;
-            opacity: 1;
-        }
-        .color-text-green{
-            color: #005248;
-        }
-        .gray-section{
-            background: #F9F7F7 0% 0% no-repeat padding-box;
-        }
-        .star{
-            color: #FFB85A;
-            font-size: 14px;
-        }
-        .color-salmon{
-            background: orange;
-        }
-        .btn-buy-offer{
-            background-color: #005248;
-        }
-    </style>
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
       <div id="drawer-right-example" class="fixed top-0 right-0 z-40 h-screen p-4 overflow-y-auto transition-transform translate-x-full bg-white w-80 dark:bg-gray-800" tabindex="-1" aria-labelledby="drawer-right-label">
@@ -403,7 +343,6 @@
                               </div>
                           </div>
                       </div>
-                      
                   </div>
                   <div class="md:p-6 sm:pt-6 sm:col-span-12 md:col-span-6 h-[90%]">
                       <div>
@@ -474,6 +413,121 @@
               </div>
           </div>
           </div>
+          <div class="sm:w-full md:w-[70%] mx-auto mt-8 color-white-pink p-4 md:rounded-lg">
+            <div class="grid grid-cols-12">
+                <div class="md:col-span-4 sm:col-span-12 flex items-center justify-center md:row-span-2 sm:row-span-10">
+                    <img class="h-auto w-auto" src="public/bottles.png" alt="Bottles">
+                </div>
+                <div class="md:col-span-8 sm:col-span-12 w-full bg-white rounded-lg p-4 mt-4 md:row-span-4 grid-rows-12">
+                  <div class="md:col-span-10 sm:col-span-10 md:row-span-2 sm:row-span-10 row-start-6">
+                      <h1 class="color-text-green font-bold text-3xl">
+                        Ingredients
+                      </h1>
+                      <p class="text-sm p-4">
+                        Biodiesel pork belly green juice VHS farm-to-table, taxidermy heirloom scenester +1 chillwave man braid readymade locavore lomo. Intelligentsia typewriter glossier, kogi pour-over YOLO everyday carry flannel. Green juice Brooklyn church-key skateboard selfies, normcore Tumblr shabby chic activated charcoal poke bicycle rights quinoa portland dreamcatcher neutra.
+                      </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mx-auto w-[70%] p-4 color-white-pink pt-6 mt-12 rounded-lg">
+          <div class="mx-auto bg-white rounded-lg p-4">
+            <div class="grid grid-cols-12 p-4">
+              <div class="col-start-1 col-span-4">
+                <img src="./public/Grupo 4124.png" alt="">
+              </div>
+              <div class="col-start-5 col-span-8 pl-4">
+                <h1 class="text-3xl color-text-green font-bold">Headline Goes Here</h1>
+                <p class="mt-2 text-sm">
+                  I’m baby retro chillwave letterpress small batch beard, paleo ugh banjo hot chicken godard craft beer. 
+                  Biodiesel pork belly green juice VHS farm-to-table, taxidermy heirloom scenester +1 chillwave man braid readymade locavore lomo.
+                </p>
+                <p class="mt-2 text-sm">
+                  Intelligentsia typewriter glossier, kogi pour-over YOLO everyday carry flannel. 
+                  Green juice Brooklyn church-key skateboard selfies, normcore Tumblr shabby chic activated charcoal poke bicycle rights quinoa portland dreamcatcher neutra.
+                </p>
+              </div>
+            </div> 
+            <div class="grid grid-cols-2 p-4">
+              <div class="col-span-2">
+                <hr>
+              </div>
+              <div class="mt-5">
+                <h1 class="text-3xl font-bold">Headline Goes Here</h1>
+                <p class="mt-2 text-sm">
+                  I’m baby retro chillwave letterpress small batch beard, paleo ugh banjo hot chicken godard craft beer.
+                </p>
+              </div>
+              <div class="mt-2">
+                <div class="w-full h-full">
+                  <div class="grid grid-cols-3 gap-2 h-[200px] color-text-green">
+                    <div class="green-icon text-center rounded-lg pt-2 pb-2 flex items-center">
+                      <div class="mx-auto">
+                        <i class="fa-solid fa-pills"></i>
+                        <p class="font-bold">2X</p>
+                      </div>
+                    </div>
+                    <div class="green-icon text-center rounded-lg pt-2 pb-2 flex items-center">
+                      <div class="mx-auto">
+                        <i class="fa-solid fa-clock"></i>
+                        <p class="font-bold">DAILY</p>
+                      </div>
+                    </div>
+                    <div class="green-icon text-center rounded-lg pt-2 pb-2 flex items-center">
+                      <div class="mx-auto">
+                        <i class="fa-solid fa-utensils"></i>
+                        <p class="font-bold">WITH MEAL</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w-full mt-12 color-white-pink pt-6">
+          <div class="sm:w-[90%] md:w-[70%] mx-auto">
+            <div class="grid grid-cols-12">
+                <div class="sm:col-span-12 md:col-span-6 w-full sm:h-full md:h-[95%]">
+                    <div class="grid grid-cols-12">
+                        <div class="col-span-12 p-4">
+                            <h1 class="text-3xl p-4">
+                              Headline Goes Here
+                            </h1>
+                            <div class="text-xs p-4">
+                              <p class="color-text-green font-bold">
+                                Intelligentsia typewriter glossier, kogi pour-over YOLO everyday carry flannel. Green juice Brooklyn church-key skateboard selfies, normcore Tumblr shabby chic activated charcoal poke bicycle rights quinoa portland dreamcatcher neutra.
+                              </p>
+                              <p class="mt-4">
+                                I’m baby retro chillwave letterpress small batch beard, paleo ugh banjo hot chicken godard craft beer. Biodiesel pork belly green juice VHS farm-to-table, taxidermy heirloom scenester +1 chillwave man braid readymade locavore lomo. Intelligentsia typewriter glossier, kogi pour-over YOLO everyday carry flannel.
+                              </p>
+                              <p class="mt-4">Green juice Brooklyn church-key skateboard selfies, normcore Tumblr shabby chic activated charcoal poke bicycle rights quinoa portland dreamcatcher neutra.
+                              </p>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="md:p-6 sm:pt-6 sm:col-span-12 md:col-span-6 h-[90%]">
+                    <div class="grid grid-cols-4 flex h-10">
+                      <div class="col-span-2">
+                      <img class="mx-auto" src="public/image_01.png" alt="">
+                      </div>
+                      <div class="col-span-2">
+                        <img class="mx-auto" src="public/image_02.png" alt="">
+                      </div>
+                      <div class="col-span-2">
+                        <img class="mx-auto" src="public/image_03.png" alt="">
+                      </div>
+                      <div class="col-span-2">
+                        <img class="mx-auto" src="public/image_04.png" alt="">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+        </div>
+        </div>
       </div>
       </div>    
       <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
