@@ -59,7 +59,7 @@
   font-size: 14px;
 }
 .color-salmon {
-  background: orange;
+  background: #FFF8F0;
 }
 .btn-buy-offer {
   background-color: #005248;
@@ -79,4 +79,7 @@
 .green-icon p{
   font-size: 0.6rem;
   font-weight: bolder;
+}
+.font-m{
+  font-family: 'Montserrat', sans-serif;
 }
