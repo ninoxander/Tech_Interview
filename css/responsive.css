@@ -1,0 +1,305 @@
+@media (max-width: 640px) {
+    .xs\:w-100{
+        width: 100%;
+    }
+    .xs\:w-90{
+        width: 90%;
+        margin: auto;
+    }
+    .xs\:h-100{
+        height: 100vh;
+    }
+    .xs\:h-auto {
+        height: 150vh;
+    }   
+    /*Margin*/
+    .xs\:m-auto{
+        margin: auto;
+    }  
+    .xs\:m-r {
+        margin-right: 1rem;
+    }
+    .xs\:m-l {
+        margin-left: 1rem;
+    }
+    .xs\:m-t {
+        margin-top: 1rem;
+    }
+    .xs\:m-b {
+        margin-bottom: 1rem;
+    } 
+    /*Spacing*/
+    .xs\:no-padding{
+        padding: 0;
+    }
+    .xs\:p-auto{
+        padding: 8rem;
+    }
+    .xs\:p-r {
+        padding-right: 8rem;
+    }
+    .xs\:p-l {
+        padding-left: 8rem;
+    }
+    .xs\:p-t {
+        padding-top: 8rem;
+    }
+    .xs\:p-b {
+        padding-bottom: 8rem;
+    }
+    /*Position*/
+    .xs\:float-right{
+        float: right;
+    }
+    .xs\:float-left{
+        float: left;
+    }
+    .xs\:hidden {
+        display: none;
+    }
+    .xs\:flex{
+        display: flex;
+    }
+    .xs\:items-center{
+        align-items: center;
+    }
+    .xs\:justify-center{
+        justify-content: center;
+    }
+    .xs\:justify-between{
+        justify-content: space-between;
+    }
+    .xs\:justify-around{
+        justify-content: space-around;
+    }
+    .xs\:justify-evenly{
+        justify-content: space-evenly;
+    }
+    .xs\:flex-wrap{
+        flex-wrap: wrap;
+    }
+    .xs\:flex-column{
+        flex-direction: column;
+    }
+    .xs\:flex-row{
+        flex-direction: row;
+    }
+    .xs\:flex-row-reverse{
+        flex-direction: row-reverse;
+    }
+    .xs\:flex-column-reverse{
+        flex-direction: column-reverse;
+    }
+    /*Grid*/
+    .xs\:grid{
+        display: grid;
+    }
+    .xs\:grid-cols-2{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .xs\:grid-cols-3{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .xs\:grid-cols-4{
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .xs\:grid-cols-5{
+        grid-template-columns: repeat(5, 1fr);
+    }
+    .xs\:grid-cols-6{
+        grid-template-columns: repeat(6, 1fr);
+    }
+    .xs\:grid-cols-7{
+        grid-template-columns: repeat(7, 1fr);
+    }
+    .xs\:grid-cols-8{
+        grid-template-columns: repeat(8, 1fr);
+    }
+    .xs\:grid-cols-9{
+        grid-template-columns: repeat(9, 1fr);
+    }
+    .xs\:grid-cols-10{
+        grid-template-columns: repeat(10, 1fr);
+    }
+    .xs\:grid-cols-11{
+        grid-template-columns: repeat(11, 1fr);
+    }
+    .xs\:grid-cols-12{
+        grid-template-columns: repeat(12, 1fr);
+    }
+    .xs\:grid-rows-2{
+        grid-template-rows: repeat(2, 1fr);
+    }
+    .xs\:grid-rows-3{
+        grid-template-rows: repeat(3, 1fr);
+    }
+    .xs\:grid-rows-4{
+        grid-template-rows: repeat(4, 1fr);
+    }
+    .xs\:grid-rows-5{
+        grid-template-rows: repeat(5, 1fr);
+    }
+    .xs\:grid-rows-6{
+        grid-template-rows: repeat(6, 1fr);
+    }
+    .xs\:grid-rows-7{
+        grid-template-rows: repeat(7, 1fr);
+    }
+    .xs\:grid-rows-8{
+        grid-template-rows: repeat(8, 1fr);
+    }
+    .xs\:grid-rows-9{
+        grid-template-rows: repeat(9, 1fr);
+    }
+    .xs\:grid-rows-10{
+        grid-template-rows: repeat(10, 1fr);
+    }
+    .xs\:grid-rows-11{
+        grid-template-rows: repeat(11, 1fr);
+    }
+    .xs\:grid-rows-12{
+        grid-template-rows: repeat(12, 1fr);
+    }
+    .xs\:col-start-1{
+        grid-column-start: 1;
+    }
+    .xs\:col-start-2{
+        grid-column-start: 2;
+    }
+    .xs\:col-start-3{
+        grid-column-start: 3;
+    }
+    .xs\:col-start-4{
+        grid-column-start: 4;
+    }
+    .xs\:col-start-5{
+        grid-column-start: 5;
+    }
+    .xs\:col-start-6{
+        grid-column-start: 6;
+    }
+    .xs\:col-start-7{
+        grid-column-start: 7;
+    }
+    .xs\:col-start-8{
+        grid-column-start: 8;
+    }
+    .xs\:col-start-9{
+        grid-column-start: 9;
+    }
+    .xs\:col-start-10{
+        grid-column-start: 10;
+    }
+    .xs\:col-start-11{
+        grid-column-start: 11;
+    }
+    .xs\:col-start-12{
+        grid-column-start: 12;
+    }
+
+    .xs\:absolute{
+        position: absolute;
+    }
+
+    .xs\:col-span-1{
+        grid-column: span 1;
+    }
+    .xs\:col-span-2{
+        grid-column: span 2;
+    }
+    .xs\:col-span-3{
+        grid-column: span 3;
+    }
+    .xs\:col-span-4{
+        grid-column: span 4;
+    }
+    .xs\:col-span-5{
+        grid-column: span 5;
+    }
+    .xs\:col-span-6{
+        grid-column: span 6;
+    }
+    .xs\:col-span-7{
+        grid-column: span 7;
+    }
+    .xs\:col-span-8{
+        grid-column: span 8;
+    }
+    .xs\:col-span-9{
+        grid-column: span 9;
+    }
+    .xs\:col-span-10{
+        grid-column: span 10;
+    }
+    .xs\:col-span-11{
+        grid-column: span 11;
+    }
+    .xs\:col-span-12{
+        grid-column: span 12;
+    }
+
+    /*Text*/
+    .xs\:text-center{
+        text-align: center;
+    }
+    .xs\:text-left{
+        text-align: left;
+    }
+    .xs\:text-right{
+        text-align: right;
+    }
+    .xs\:text-justify{
+        text-align: justify;
+    }
+    .xs\:text-uppercase{
+        text-transform: uppercase;
+    }
+    .xs\:text-lowercase{
+        text-transform: lowercase;
+    }
+    .xs\:text-base{
+        font-size: 1rem;
+    }
+    .xs\:text-xs{
+        font-size: 0.6rem;
+    }
+    .xs\:text-sm{
+        font-size: 0.8rem;
+    }
+    .xs\:text-lg{
+        font-size: 1.2rem;
+    }
+    .xs\:text-xl{
+        font-size: 1.5rem;
+    }
+    .xs\:text-2xl{
+        font-size: 2rem;
+    }
+    .xs\:text-3xl{
+        font-size: 3rem;
+    }
+    .xs\:text-4xl{
+        font-size: 4rem;
+    }
+    .xs\:text-5xl{
+        font-size: 5rem;
+    }
+    .xs\:text-6xl{
+        font-size: 6rem;
+    }
+    .xs\:whitespace-pre{
+        white-space: pre;
+    }
+    /*Round*/
+    .xs\:squared{
+        border-radius: 0;
+    }
+    .xs\:shape-square{
+        width: 4rem;
+        height: 4rem;
+    }
+    /*Debug*/
+    .xs\:debug{
+        border: 1px solid red;
+    }
+}
